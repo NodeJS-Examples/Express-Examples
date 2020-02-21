@@ -1,0 +1,10 @@
+html
+    head
+        //name is passed in as a param
+        title=name
+    body
+        if(user)
+            body Welcome #{user.name}!
+        h1 #{url.name}
+        //url is passed in as a param
+        a(href = url.link) URL: #{url.link}

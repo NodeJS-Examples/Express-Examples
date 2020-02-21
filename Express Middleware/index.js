@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
 app.use('/', function(req, res, next){
    console.log("Catch the request and log it here.");
