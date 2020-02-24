@@ -1,0 +1,21 @@
+html
+head
+    title Dog
+    body
+        form(action = "/dog", method = "POST")
+            div
+                label(for = "name") Name: 
+                input(name = "name")
+            br
+            div
+                label(for = "age") Age: 
+                input(name = "age")
+            br
+            div
+                label(for = "weight") Weight: 
+                input(name = "weight")
+            br
+            div
+                label(for = "breed") Breed:
+                input(name = "breed")
+            button(type = "submit") Create new dog

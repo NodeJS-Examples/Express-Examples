@@ -1,0 +1,16 @@
+html
+    head
+        title Dog
+    body
+        if(type == "error")
+            h3(style = "color:red") #{message}
+        else
+            h3 New dog added!
+            p
+                span Name: #{dog.name}
+                br
+                span Age: #{dog.age}
+                br
+                span Weight: #{dog.weight}
+                br
+                span Breed: #{dog.breed}
